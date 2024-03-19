@@ -13,6 +13,13 @@ ball = {
     dx:4;
     dy:-4;
 }
+//create paddle
+paddle = {
+    x: canvas
+
+
+
+}
 //drawball on canvas
 function drawBall(){
     ctx.beginPath()
