@@ -13,6 +13,11 @@ ball ={
     dx:4;
     dy:-4;
 }
+//drawball on canvas
+function drawBall(){
+    ctx.beginPath()
+
+}
 
 
 
