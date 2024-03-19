@@ -28,9 +28,7 @@ h1 {
     cursor: pointer;
     border: 0;
     padding: 10px 20px;
-    background: black;
-    color: white;
-    border-radius: 5px;
+    background: #500000;
 }
 
 .btn:hover {
