@@ -117,8 +117,29 @@ function moveBall() {
     }
 }
 
+if (ball.x - ball.size > paddle.x && ball.x + ball.size < paddle.x + paddle.w && ball.y + ball.size > paddle.y) {
+    ball.dy = -1 * ball.speed
+}
+
+bricks.forEach(column => {
+    column.forEach(brick => {
+        if (brick.visible) {
+            if (ball.y - ball.size < brick.y + brock.h ball.x - ball.size > brick.x &&
+                 ball.x + ball.size < brick.x + brick.w && )
+            {
+                ball.dy = -1 * ball.dy
+                brick.visible = false
+                increaseScore()
+            }
+        }
+    })
+})
+
+function increaseScore () {
+    score++
+}
 function draw() {
-    ctx.clearRect(0 , 0,canvas.width,canvas.height)
+    ctx.clearRect(0, 0, canvas.width, canvas.height)
     drawPaddle()
     drawBall()
     drawScore()
@@ -132,7 +153,7 @@ function update() {
     requestAnimationFrame(update)
 }
 
-update ()
+update()
 
 function keyDown(e) {
     if (e.key == 'ArrowRight' || e.key == 'Right' || e.key == 'd') {
