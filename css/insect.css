@@ -34,8 +34,20 @@ body {
     color:#516dff;
     padding:15px 20px;
     cursor:pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+.screen.up{
+    margin-top:-100vh;
+}
+a{
+    color:white;
 
 }
-.screen{
-    
+
+h1{
+    line-height:1.4;
 }
