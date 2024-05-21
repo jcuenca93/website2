@@ -1,0 +1,59 @@
+body{
+    background-color:purple;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+#start-button{
+    width: 50vw;
+    height: 12.5vh;
+    color: rgb(0, 0, 0);
+    border: none;
+    text-align: center;
+    font-size: 32px;
+    cursor: pointer;
+    background-color:cyan;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+.start-button.invisible{
+transition:ease-out 0.5s ;
+opacity:0;
+}
+.links{
+    opacity: 0%;
+    color:rgb cyan;
+}
+.links.visible{
+    opacity: 100%;
+    transition: ease-in 0.5s;
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    align-items: center;
+    position: absolute;
+    top: 35px;
+    right: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: indigo;
+    border: 0;
+    height: 40px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-weight: bold;
+}
