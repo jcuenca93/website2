@@ -21,7 +21,7 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 50px;
+
 }
 .start-button.invisible{
 transition:ease-out 1s ;
@@ -43,8 +43,6 @@ h1
 }
 
 .btn {
-    align-items: center;
-    position: absolute;
     top: 35px;
     right: 5px;
     font-size: 16px;
